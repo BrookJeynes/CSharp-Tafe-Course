@@ -14,6 +14,7 @@ This tutorial follows on from these online recources and gives some practice exa
 </ul>
 <hr>
 <br>
+
 <h1>Running your first project</h1>
 In this section you will learn to
 <ul>
@@ -56,6 +57,7 @@ namespace HelloWorld
 <br>
 <h2>Variables</h2>
 Variables store data which can then be referenced later by using that variable name. Variables can hold many types of data and must be declared when creating that variable.
+<br>
 
 ```csharp
 int bobAge = 100;
@@ -70,4 +72,40 @@ Here is a short list of the most common variable types
   <li>String: Stores text, such as "Hello World". String values are surrounded by double quotes</li>
   <li>Bool: Stores values with two states: true or false</li>
 </ul>
+<hr>
+<br>
 
+<h1>Data Types and Type Casting</h1>
+<h2>User Input</h2>
+Here is an example of a program that will check whther an entered number is odd or even. Write out the program in a new .cs file and try analyse the project and think about what it does before running it. After this we will breakdown what the project does, how and why it does what it does
+
+<br>
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+ 
+namespace check1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int i;
+            Console.Write("Enter a Number : ");
+            i = int.Parse(Console.ReadLine());
+            if (i % 2 == 0)
+            {
+                Console.Write("Entered Number is an Even Number");
+                Console.Read();
+            }
+            else
+            {
+                Console.Write("Entered Number is an Odd Number");
+                Console.Read();
+            }
+        }
+    }
+}
+```
