@@ -204,8 +204,12 @@ So we've now declared the `Console.` namespace, what does the `WriteLine();` fun
 
 We will talk about data types in the next section of this document but as of currently just remember:
 <ul>
-  <li>A `String` is a series of characters and are declared by surrounding them in quotation marks (single '' or double "" work the same way). Example: "This is a string", "A string can include numbers aswell, 1 or 4 or maybe even 7"</li>
-  <li>An int (short for integer) is a series of numbers and are <b>not</b> contained in quotation marks, these are numbers that don't include decimal points</li>
+  <li>
+    A `String` is a series of characters and are declared by surrounding them in quotation marks (single '' or double "" work the same way). Example: "This is a string", "A string can include numbers aswell, 1 or 4 or maybe even 7"
+  </li>
+  <li>
+    An int (short for integer) is a series of numbers and are <b>not</b> contained in quotation marks, these are numbers that don't include decimal points
+  </li>
 </ul>
 
 <h6 style="font-size:11px;"><i>*note: for more information on Methods check out these resources
