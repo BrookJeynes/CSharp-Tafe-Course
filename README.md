@@ -72,7 +72,6 @@ So what does this program actually do? This application will output the phrase "
 <br><br>
 
 <h3 id="namespaces">Namespaces</h3>
-<br>
 
 ```csharp
 using System;
@@ -108,8 +107,9 @@ This line of code should be easy to interpret considering the previous analysis 
   </ul></i>
 </h6>
 
-<h3 id="classes">Classes</h3>
 <br>
+
+<h3 id="classes">Classes</h3>
 
 ```csharp
 class Program {
