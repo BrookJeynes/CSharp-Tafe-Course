@@ -11,7 +11,9 @@ Written by Brook Jeynes and Robert MacKenzie
     <li><a href="#classes">Classes</a></li>
     <li><a href="#methods">Methods</a></li>
     <li><a href="#printing">Printing to the command line</a></li>
+    <li><a href="#activity1">Activity 1</a></li>
   </ul>
+  <li><a href="#second-project">Math and C#</a></li>
   <li><a href="#resources-content">Resources</a></li>
 </ul>
 
@@ -222,7 +224,7 @@ We will talk about data types in the next section of this document but as of cur
 
 <br>
 
-<h1>Activity 1</h1>
+<h1 id="activity1">main.cs: a project about structuring your programs</h1>
 Now that you've learnt the structure of a C# program it's your time to have a go at creating one. Throughout this document there will be examples and mini projects for you to test your knowledge and to allow a hands on learning experience. It is advised that you create a new folder with each project so that everything is easy to find and organised. <br>
 
 ```cmd
@@ -232,7 +234,7 @@ Now that you've learnt the structure of a C# program it's your time to have a go
 
 <br>
 
-For this example project we will create a new .cs file with the name "Project 1: Structure" <br>
+For this example project we will create a new .cs file with the name "Project 1: Structure". <br>
 
 ```bash
 ~$ mkdir "project1 structure"
@@ -259,7 +261,6 @@ Once your folders are created it's time to create the .cs file. <br>
 
 And now that the file has been created open up visual studio, or your IDE of choice, and make sure that you can connect to that project through the IDE editor. Once you have successfully navigated to your file, it's time to start the first practice project. <br>
 
-<h2> main.cs: a project about structuring your programs </h2>
 For this practice project your goal is to, using the .cs file we just created, code a program which outputs the text `"C# is fun"` to the command line.
 
 <br>
@@ -268,12 +269,13 @@ Once you have finished the above program you are ready to move onto the next sec
 
 <hr> <br>
 
-<h1>Variables and Data Types</h1>
+<h1 id="second-project">Variables, Data Types and Math</h1>
 In this section you will learn to
 <ul>
   <li>Create Variables</li>
   <li>Take User Input</li>
-  <li>Change a Variables Data Type</li>
+  <li>Do Math in C#</li>
+  <li>Data Type Casting</li>
 </ul>
 <br>
 <h2>Variables</h2>
