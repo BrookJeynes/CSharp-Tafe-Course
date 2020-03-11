@@ -28,7 +28,7 @@ In this section you will learn to
     </ul>
 </ul>
 <br>
-<h1>Creating your first C# application</h1>
+<h2>Creating your first C# application</h2>
 Start off by creating a file called main.cs and then add the code below into it, save, and run
 <br>
 
@@ -54,7 +54,7 @@ namespace HelloWorld
   </ul></i>
 </h6>
 <br>
-<h1>Variables</h1>
+<h2>Variables</h2>
 Variables store data which can then be referenced later by using that variable name. Variables can hold many types of data and must be declared when creating that variable.
 
 ```csharp
