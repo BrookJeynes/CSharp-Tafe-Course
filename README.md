@@ -23,8 +23,6 @@ We'll start off by installing <a href="https://visualstudio.microsoft.com/vs/com
 <h2>Resources</h2>
 This tutorial follows on from these online recources and gives some practice examples to complete to test your progress, it's not required but recommended you at least check out these <a href="#resources-content">resources</a> for a better understand of basics
 
-<h6 style="font-size:11px;"><i>*note: If you are an absolute beginner in programming it is recommended you take a read through <a href="https://channel9.msdn.com/Series/CSharp-Fundamentals-for-Absolute-Beginners?l=Lvld4EQIC_2706218949">this</a> as it will take you through some basic fundementals as this document assumes basic programming concept knowledge</i></h6>
-
 <h6 style="font-size:11px;"><i>*note: Many examples found in this document are taken and modified from various sites. A complete resource list can be found <a href="#resources-content">here</a></i></h6>
 
 <hr> <br>
