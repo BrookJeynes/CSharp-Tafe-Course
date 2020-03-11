@@ -158,7 +158,7 @@ This is what we call a `Method`. A method is similar to a `Function` in other pr
 
 For now we won't talk about what `static void` and `(string[] args)` means just yet, they will be discussed later however, if you want to read about them now some links to more information will be located just below.
 
-<h6 style="font-size:11px;"><i>*note: It is important to note that throughout this document `method` and `function` are interchangeably used, they both mean the same thing. a method is a function and a function is a method</h6>
+<h6 style="font-size:11px;"><i>*note: It is important to note that throughout this document `method` and `function` are interchangeably used, they both mean the same thing. a method is a function and a function is a method</i></h6>
 
 <h6 style="font-size:11px;"><i>*note: for more information on Methods check out these resources
   <ul>
