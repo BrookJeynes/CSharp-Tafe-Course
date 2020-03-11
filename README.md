@@ -9,6 +9,7 @@ Written by Brook Jeynes and Robert MacKenzie
     <li><a href="#creating-first-project">Creating your first project</a></li>
     <li><a href="#namespaces">Namespaces</a></li>
     <li><a href="#classes">Classes</a></li>
+    <li><a href="#methods">Methods</a></li>
   </ul>
   <li><a href="#resources-content">Resources</a></li>
 </ul>
@@ -68,7 +69,10 @@ namespace HelloWorld
 
 <br>
 
-So what does this program actually do? This application will output the phrase "Hello World!" into the commandline. This project is the starting point of every programmers langauge learning journey. Lets now delve into what each line in this program does for a better understanding of C#.
+So what does this program actually do? This application will output the phrase "Hello World!" into the commandline. This project is the starting point of every programmers langauge learning journey. Lets now delve into what each line in this program does for a better understanding of C#. 
+<br>
+It's important to note that the topics discussed below will be later discussed in more detail, this is just a simple overview as so you get a basic idea of C# and to not overload your brain with information.
+
 <br><br>
 
 <h3 id="namespaces">Namespaces</h3>
@@ -97,6 +101,7 @@ namespace HelloWorld {
 ```
 
 <br>
+
 This line of code should be easy to interpret considering the previous analysis of the `System` namespace. In this line of code we create our own namespace labeled `HelloWorld`.
 
 <h6 style="font-size:11px;"><i>*note: for more information on namespaces and System check out these resources
@@ -126,7 +131,35 @@ Here we create a `class` and label it `Program`. A class is a <br>
 <br>
 
 It's essentially a user-defined blueprint which the interpretor uses to create an `Object`. 
-In that quote you saw the phrase `Object-Oriented Programming`, don't worry about these terms just yet because they will be discussed later. {add link to where they are discussed}
+In that quote you saw the phrase `Object-Oriented Programming` and `Object`, don't worry about these terms just yet because they will be discussed later. {add link to where they are discussed}
+
+<h6 style="font-size:11px;"><i>*note: for more information on OOP, Objects and Classes check out these resources
+  <ul>
+    <li><a href="https://www.geeksforgeeks.org/c-sharp-class-and-object/">Classes and Objects</a></li>
+    <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/classes">A Guide to Classes</a></li> 
+    <li><a href="https://en.wikipedia.org/wiki/Object-oriented_programming">What Object-Oriented Programming (OOP)</a></li>
+  </ul></i>
+</h6>
+
+<br>
+
+<h3 id="methods">Methods</h3>
+
+```csharp
+static void Main(string[] args) {
+...
+}
+```
+
+<br>
+
+<h6 style="font-size:11px;"><i>*note: for more information on Methods check out these resources
+  <ul>
+    <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/main-and-command-args/">Main Method</a></li>
+    <li><a href="https://www.quora.com/Why-do-we-use-static-void-main-string-args-in-C">breakdown of a method</a></li> 
+    <li><a href="#">blank</a></li>
+  </ul></i>
+</h6>
 
 <br>
 <h2>Variables</h2>
@@ -199,4 +232,11 @@ namespace check1
   <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/namespaces/">A Guide to Namespaces</a></li> 
   <li><a href="https://docs.microsoft.com/en-us/dotnet/api/system?view=netframework-4.8">What the System Namespace does</a></li>
 </ul>
+
+<h2>Classes, Objects and Object-Oriented Programming</h2>
+<ul>
+  <li><a href="https://www.geeksforgeeks.org/c-sharp-class-and-object/">Classes and Objects</a></li>
+  <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/classes">A Guide to Classes</a></li> 
+  <li><a href="https://en.wikipedia.org/wiki/Object-oriented_programming">What Object-Oriented Programming (OOP)</a></li>
+</ul></i>
 
