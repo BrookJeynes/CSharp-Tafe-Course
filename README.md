@@ -8,7 +8,7 @@ Written by Brook Jeynes and Robert MacKenzie
   <ul>
     <li><a href="#creating-first-project">Creating your first project</a></li>
     <li><a href="#namespaces">Namespaces</a></li>
-    <li><a href="#Classes">Classes</a></li>
+    <li><a href="#classes">Classes</a></li>
   </ul>
   <li><a href="#resources-content">Resources</a></li>
 </ul>
@@ -22,7 +22,7 @@ We'll start off by installing <a href="https://visualstudio.microsoft.com/vs/com
 <h2>Resources</h2>
 This tutorial follows on from these online recources and gives some practice examples to complete to test your progress, it's not required but recommended you at least check out these resources for a better understand of basics:
 
-<h6 style="font-size:11px;"><i>*note: Many examples found in this document are taken and modified from various sites. A complete resource list can be found <a href="#resources">here</a></i></h6>
+<h6 style="font-size:11px;"><i>*note: Many examples found in this document are taken and modified from various sites. A complete resource list can be found <a href="#resources-content">here</a></i></h6>
 
 <hr> <br>
 
