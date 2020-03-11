@@ -93,6 +93,8 @@ This line of code should be easy to interpret considering the previous analysis 
   </ul></i>
 </h6>
 
+<br>
+
 ```csharp
 class Program {
 ...
@@ -100,12 +102,15 @@ class Program {
 ```
 
 <br>
+
 Here we create a `class` and label it `Program`. A class is a <br>
 
 > "...basic concept of Object-Oriented Programming which revolve around... real-life entities" - <a href="https://www.geeksforgeeks.org/c-sharp-class-and-object/">Geeks for Geeks - Class and Object</a>
 
 <br>
-It's essentially a user-defined blueprint which the interpretor uses to create an `Object`. In that quote you saw the phrase `Object-Oriented Programming`, don't worry about these terms just yet because they will be discussed later. {add link to where they are discussed}
+
+It's essentially a user-defined blueprint which the interpretor uses to create an `Object`. 
+In that quote you saw the phrase `Object-Oriented Programming`, don't worry about these terms just yet because they will be discussed later. {add link to where they are discussed}
 
 <br>
 <h2>Variables</h2>
