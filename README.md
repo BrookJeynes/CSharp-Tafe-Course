@@ -13,7 +13,7 @@ Written by Brook Jeynes and Robert MacKenzie
   <li><a href="#resources">Resources</a></li>
 </ul>
 
-<hr>
+<hr> <br>
 
 <h1>Getting Started</h1>
 <h2>The IDE</h2>
@@ -24,8 +24,7 @@ This tutorial follows on from these online recources and gives some practice exa
 
 <h6 style="font-size:11px;"><i>*note: Many examples found in this document are taken and modified from various sites. A complete resource list can be found <a href="#resources">here</a></i></h6>
 
-<hr>
-<br>
+<hr> <br>
 
 <h1 id="first-project">Running your first project</h1>
 In this section you will learn to
@@ -67,16 +66,20 @@ namespace HelloWorld
   </ul></i>
 </h6>
 
+<br>
+
 So what does this program actually do? This application will output the phrase "Hello World!" into the commandline. This project is the starting point of every programmers langauge learning journey. Lets now delve into what each line in this program does for a better understanding of C#.
 <br><br>
+
+<h3 id="namespaces">Namespaces</h3>
+
+<br>
 
 ```csharp
 using System;
 ```
 
 <br>
-
-<h3 id="namespaces">Namespaces</h3>
 
 This first line of code is called a `Namespace`. A Namespace is an element in C# code used to organise your programs and, once created, allow you to reference parts of code from that namespace for later functions in the code. 
 
