@@ -10,6 +10,7 @@ Written by Brook Jeynes and Robert MacKenzie
     <li><a href="#namespaces">Namespaces</a></li>
     <li><a href="#classes">Classes</a></li>
     <li><a href="#methods">Methods</a></li>
+    <li><a href="#printing">Printing to the command line</a></li>
   </ul>
   <li><a href="#resources-content">Resources</a></li>
 </ul>
@@ -157,12 +158,64 @@ This is what we call a `Method`. A method is similar to a `Function` in other pr
 
 For now we won't talk about what `static void` and `(string[] args)` means just yet, they will be discussed later however, if you want to read about them now some links to more information will be located just below.
 
+<h6 style="font-size:11px;"><i>*note: It is important to note that throughout this document `method` and `function` are interchangeably used, they both mean the same thing. a method is a function and a function is a method</h6>
+
 <h6 style="font-size:11px;"><i>*note: for more information on Methods check out these resources
   <ul>
     <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/main-and-command-args/">Main Method</a></li>
     <li><a href="https://www.quora.com/Why-do-we-use-static-void-main-string-args-in-C">breakdown of a method</a></li> 
   </ul></i>
 </h6>
+
+<br>
+
+<h3 id="printing">Printing to the console</h3>
+
+```csharp
+Console.WriteLine("Hello World!");
+```
+
+<br>
+
+Finally onto the last line of this small program, if any of these concepts haven't made much sense don't worry too much as they will be covered later in the document. This was just a small rundown on basic concepts from a beginner application for people who don't have very much knowledge on C#. It is recommended however that further research into misunderstood topics to be done as all the example applications will build upon these basic concepts with the addition of more concepts.
+
+In this line we have a couple things to talk about and we'll start with `Console.`. What is this? This is actually a `namespace`, remember from above how we used a namespace by importing it? (`using System;`). Here we use the namespace `Console` but you may be thinking, why didn't we import it? dont we have to import it to use it? Well, kind of. 
+
+If we imported it the application would look like this instead: <br><br>
+
+```csharp
+using System;
+using Console;
+
+...{
+  ...{
+    ...{
+      WriteLine("Hello World!");
+    }
+  }
+}
+```
+
+<br>
+
+If we import `Console` we can use any function inside of the namespace without needing to declare it. `WriteLine` is a function inside the `Console` namespace however, because we didn't reference (import) it at the start of the application we declared it as we used the functuion. Thats why in the line `Console.WriteLine(...);` we declare it.
+
+So we've now declared the `Console.` namespace, what does the `WriteLine();` function do? It does exactly what it looks like it does, it prints out to the command line whatever is inside the function (inside the () brackets). 
+
+We will talk about data types in the next section of this document but as of currently just remember:
+<ul>
+  <li>A `String` is a series of characters and are declared by surrounding them in quotation marks (single '' or double "" work the same way). Example: "This is a string", "A string can include numbers aswell, 1 or 4 or maybe even 7"</li>
+  <li>An int (short for integer) is a series of numbers and are <b>not</b> contained in quotation marks, these are numbers that don't include decimal points</li>
+</ul>
+
+<h6 style="font-size:11px;"><i>*note: for more information on Methods check out these resources
+  <ul>
+    <li><a href="https://docs.microsoft.com/en-us/dotnet/api/system.console.writeline?view=netframework-4.8">WriteLine() method</a></li>
+    <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/">What are Strings</a></li> 
+    <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types">What are Integers</a></li> 
+  </ul></i>
+</h6>
+
 
 <br>
 <h2>Variables</h2>
@@ -247,5 +300,12 @@ namespace check1
 <ul>
   <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/main-and-command-args/">Main Method</a></li>
   <li><a href="https://www.quora.com/Why-do-we-use-static-void-main-string-args-in-C">breakdown of a method</a></li> 
+</ul></i>
+
+<h2>WriteLine Methods and Strings/Integers</h2>
+<ul>
+  <li><a href="https://docs.microsoft.com/en-us/dotnet/api/system.console.writeline?view=netframework-4.8">WriteLine() method</a></li>
+  <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/">What are Strings</a></li> 
+  <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types">What are Integers</a></li> 
 </ul></i>
 
