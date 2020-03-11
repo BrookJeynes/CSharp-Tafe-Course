@@ -73,7 +73,7 @@ So what does this program actually do? This application will output the phrase "
 <br>
 It's important to note that the topics discussed below will be later discussed in more detail, this is just a simple overview as so you get a basic idea of C# and to not overload your brain with information.
 
-<br><br>
+<br>
 
 <h3 id="namespaces">Namespaces</h3>
 
@@ -153,11 +153,14 @@ static void Main(string[] args) {
 
 <br>
 
+This is what we call a `Method`. A method is similar to a `Function` in other programming languages. The `Main` method is called in the above code. The main method is the first method (function) to be called when initially running the program. This means that nearly all the code you write will be inside the `Main()` method. 
+
+For now we won't talk about what `static void` and `(string[] args)` means just yet, they will be discussed later however, if you want to read about them now some links to more information will be located just below.
+
 <h6 style="font-size:11px;"><i>*note: for more information on Methods check out these resources
   <ul>
     <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/main-and-command-args/">Main Method</a></li>
     <li><a href="https://www.quora.com/Why-do-we-use-static-void-main-string-args-in-C">breakdown of a method</a></li> 
-    <li><a href="#">blank</a></li>
   </ul></i>
 </h6>
 
@@ -238,5 +241,11 @@ namespace check1
   <li><a href="https://www.geeksforgeeks.org/c-sharp-class-and-object/">Classes and Objects</a></li>
   <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/classes">A Guide to Classes</a></li> 
   <li><a href="https://en.wikipedia.org/wiki/Object-oriented_programming">What Object-Oriented Programming (OOP)</a></li>
+</ul></i>
+
+<h2>Methods</h2>
+<ul>
+  <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/main-and-command-args/">Main Method</a></li>
+  <li><a href="https://www.quora.com/Why-do-we-use-static-void-main-string-args-in-C">breakdown of a method</a></li> 
 </ul></i>
 
