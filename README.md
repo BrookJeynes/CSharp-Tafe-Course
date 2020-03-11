@@ -11,7 +11,7 @@ Written by Brook Jeynes and Robert MacKenzie
     <li><a href="#classes">Classes</a></li>
     <li><a href="#methods">Methods</a></li>
     <li><a href="#printing">Printing to the command line</a></li>
-    <li><a href="#activity1">Activity 1</a></li>
+    <li><a href="#prject1">Project 1</a></li>
   </ul>
   <li><a href="#second-project">Math and C#</a></li>
   <li><a href="#resources-content">Resources</a></li>
@@ -224,7 +224,7 @@ We will talk about data types in the next section of this document but as of cur
 
 <br>
 
-<h1 id="activity1">main.cs: a project about structuring your programs</h1>
+<h1 id="project1">main.cs: A Project About Structuring Your Programs</h1>
 Now that you've learnt the structure of a C# program it's your time to have a go at creating one. Throughout this document there will be examples and mini projects for you to test your knowledge and to allow a hands on learning experience. It is advised that you create a new folder with each project so that everything is easy to find and organised. <br>
 
 ```cmd
@@ -236,7 +236,7 @@ Now that you've learnt the structure of a C# program it's your time to have a go
 
 For this example project we will create a new .cs file with the name "Project 1: Structure". <br>
 
-```bash
+```cmd
 ~$ mkdir "project1 structure"
 ~$ cd "project1 structure"
 ```
@@ -253,7 +253,7 @@ Once your folders are created it's time to create the .cs file. <br>
 
 <i>Linux/Mac:</i>
 
-```cmd 
+```bash
 ~$ touch main.cs
 ```
 
@@ -262,6 +262,28 @@ Once your folders are created it's time to create the .cs file. <br>
 And now that the file has been created open up visual studio, or your IDE of choice, and make sure that you can connect to that project through the IDE editor. Once you have successfully navigated to your file, it's time to start the first practice project. <br>
 
 For this practice project your goal is to, using the .cs file we just created, code a program which outputs the text `"C# is fun"` to the command line.
+
+<br><br>
+
+Here is an interpreted answer for the project above, there are many ways this project could be done this is just one of the many answers possible. It is advised you have a go at the project before you view the answer as copying the answer will help you in no way.
+
+<br><br>
+<h3>Project 1 Answer</h3> <br>
+
+```csharp
+using System;
+
+namespace Project1
+{
+    class Program
+    {
+        static void Main(string[] args) 
+        {
+            Console.WriteLine("C# is fun")
+        }
+    }
+}
+```
 
 <br>
 
