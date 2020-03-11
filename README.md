@@ -48,6 +48,7 @@ namespace HelloWorld
 }
 ```
 
+<br>
 <h6 style="font-size:11px;"><i>*note: 
   <ul>
     <li>// will comment out a line</li> 
@@ -64,10 +65,13 @@ So what does this program actually do? This application will output the phrase "
 using System;
 ```
 
+<br>
 This first line of code is called a `Namespace`. A Namespace is an element in C# code used to organise your programs and, once created, allow you to reference parts of code from that namespace for later functions in the code. 
 
 So what is the `System` namespace and what does it include?
 > "The System namespace contains fundamental classes and base classes that define commonly-used value and reference data types, events and event handlers, interfaces, attributes, and processing exceptions." - <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/namespaces/">A Guide to Namespaces</a>
+
+The `using` keyword is equivalent to the `import` keyword. It allows you to import, or "use", that particular namespace (i.e. function)
 <br><br>
 
 ```
@@ -76,16 +80,9 @@ namespace HelloWorld {
 }
 ```
 
+<br>
 This line of code should be easy to interpret considering the previous analysis of the `System` namespace. In this line of code we create our own namespace labeled `HelloWorld`.
 <br><br>
-
-```
-class Program {
-...
-}
-```
-
-
 
 <h6 style="font-size:11px;"><i>*note: for more information on namespaces and System check out these resources
   <ul>
@@ -94,6 +91,14 @@ class Program {
     <li><a href="https://docs.microsoft.com/en-us/dotnet/api/system?view=netframework-4.8">What the System Namespace does</a></li>
   </ul></i>
 </h6>
+
+<br><br>
+
+```
+class Program {
+...
+}
+```
 
 <br>
 <h2>Variables</h2>
