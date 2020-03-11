@@ -1,16 +1,6 @@
 # C# Tafe Course
 Written by Brook Jeynes and Robert MacKenzie
 <br>
-<h1>Getting Started</h1>
-<h2>The IDE</h2>
-We'll start off by installing <a href="https://visualstudio.microsoft.com/vs/community/">Visual Studio</a> however, feel free to use any IDE you feel comfortable with. It's important to know your way around the IDE of use so make sure to read documentation and at least know the basics of it.
-<br>
-<h2>Resources</h2>
-This tutorial follows on from these online recources and gives some practice examples to complete to test your progress, it's not required but recommended you at least check out these resources for a better understand of basics:
-
-<h6 style="font-size:11px;"><i>*note: Many examples found in this document are taken and modified from various sites. A complete resource list can be found <a href="#resources">here</a></i></h6>
-
-<br>
 
 <h1>Content</h1>
 <ul>
@@ -22,6 +12,17 @@ This tutorial follows on from these online recources and gives some practice exa
   </ul>
   <li><a href="#resources">Resources</a></li>
 </ul>
+
+<hr>
+
+<h1>Getting Started</h1>
+<h2>The IDE</h2>
+We'll start off by installing <a href="https://visualstudio.microsoft.com/vs/community/">Visual Studio</a> however, feel free to use any IDE you feel comfortable with. It's important to know your way around the IDE of use so make sure to read documentation and at least know the basics of it.
+<br>
+<h2>Resources</h2>
+This tutorial follows on from these online recources and gives some practice examples to complete to test your progress, it's not required but recommended you at least check out these resources for a better understand of basics:
+
+<h6 style="font-size:11px;"><i>*note: Many examples found in this document are taken and modified from various sites. A complete resource list can be found <a href="#resources">here</a></i></h6>
 
 <hr>
 <br>
@@ -74,7 +75,9 @@ using System;
 ```
 
 <br>
+
 <h3 id="namespaces">Namespaces</h3>
+
 This first line of code is called a `Namespace`. A Namespace is an element in C# code used to organise your programs and, once created, allow you to reference parts of code from that namespace for later functions in the code. 
 
 So what is the `System` namespace and what does it include? <br>
