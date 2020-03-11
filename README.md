@@ -204,10 +204,10 @@ So we've now declared the `Console.` namespace, what does the `WriteLine();` fun
 
 We will talk about data types in the next section of this document but as of currently just remember:
 <ul>
-  <li>
+  <li>  
     A `String` is a series of characters and are declared by surrounding them in quotation marks (single '' or double "" work the same way). Example: "This is a string", "A string can include numbers aswell, 1 or 4 or maybe even 7"
   </li>
-  <li>
+  <li>   
     An int (short for integer) is a series of numbers and are <b>not</b> contained in quotation marks, these are numbers that don't include decimal points
   </li>
 </ul>
@@ -220,10 +220,64 @@ We will talk about data types in the next section of this document but as of cur
   </ul></i>
 </h6>
 
+<br>
+
+<h1>Activity 1</h1>
+Now that you've learnt the structure of a C# program it's your time to have a go at creating one. Throughout this document there will be examples and mini projects for you to test your knowledge and to allow a hands on learning experience. It is advised that you create a new folder with each project so that everything is easy to find and organised. <br>
+
+```cmd
+~$ mkdir "csharp tafe course"
+~$ cd "csharp tafe course"
+```
 
 <br>
+
+For this example project we will create a new .cs file with the name "Project 1: Structure" <br>
+
+```bash
+~$ mkdir "project1 structure"
+~$ cd "project1 structure"
+```
+
+<br>
+
+Once your folders are created it's time to create the .cs file. <br>
+
+<i>Windows:</i>
+
+```cmd
+~$ echo $null >> main.cs
+```
+
+<i>Linux/Mac:</i>
+
+```cmd 
+~$ touch main.cs
+```
+
+<br>
+
+And now that the file has been created open up visual studio, or your IDE of choice, and make sure that you can connect to that project through the IDE editor. Once you have successfully navigated to your file, it's time to start the first practice project. <br>
+
+<h2> main.cs: a project about structuring your programs </h2>
+For this practice project your goal is to, using the .cs file we just created, code a program which outputs the text `"C# is fun"` to the command line.
+
+<br>
+
+Once you have finished the above program you are ready to move onto the next section
+
+<hr> <br>
+
+<h1>Variables and Data Types</h1>
+In this section you will learn to
+<ul>
+  <li>Create Variables</li>
+  <li>Take User Input</li>
+  <li>Change a Variables Data Type</li>
+</ul>
+<br>
 <h2>Variables</h2>
-Variables store data which can then be referenced later by using that variable name. Variables can hold many types of data and must be declared when creating that variable.
+Variables store data which can then be referenced later by using that variable name. Variables can hold many types of data but that data type should always be declared when creating it.
 <br><br>
 
 ```csharp
