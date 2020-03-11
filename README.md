@@ -78,8 +78,8 @@ Here is a short list of the most common variable types
 <h1>Data Types and Type Casting</h1>
 <h2>User Input</h2>
 Here is an example of a program that will check whther an entered number is odd or even. Write out the program in a new .cs file and try analyse the project and think about what it does before running it. After this we will breakdown what the project does, how and why it does what it does
-
 <br>
+
 ```csharp
 using System;
 using System.Collections.Generic;
