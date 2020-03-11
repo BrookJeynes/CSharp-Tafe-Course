@@ -21,7 +21,9 @@ Written by Brook Jeynes and Robert MacKenzie
 We'll start off by installing <a href="https://visualstudio.microsoft.com/vs/community/">Visual Studio</a> however, feel free to use any IDE you feel comfortable with. It's important to know your way around the IDE of use so make sure to read documentation and at least know the basics of it.
 <br>
 <h2>Resources</h2>
-This tutorial follows on from these online recources and gives some practice examples to complete to test your progress, it's not required but recommended you at least check out these resources for a better understand of basics:
+This tutorial follows on from these online recources and gives some practice examples to complete to test your progress, it's not required but recommended you at least check out these <a href="#resources-content">resources</a> for a better understand of basics
+
+<h6 style="font-size:11px;"><i>*note: If you are an absolute beginner in programming it is recommended you take a read through <a href="https://channel9.msdn.com/Series/CSharp-Fundamentals-for-Absolute-Beginners?l=Lvld4EQIC_2706218949">this</a> as it will take you through some basic fundementals as this document assumes basic programming concept knowledge</i></h6>
 
 <h6 style="font-size:11px;"><i>*note: Many examples found in this document are taken and modified from various sites. A complete resource list can be found <a href="#resources-content">here</a></i></h6>
 
@@ -224,7 +226,7 @@ namespace check1
 
 <h2>C# Code/Project Examples</h2>
 <ul>
-  <li><a href="https://channel9.msdn.com/Series/CSharp-Fundamentals-for-Absolute-Beginners?l=Lvld4EQIC_2706218949">C# Fundamentals for Absolute Beginners - <i>Channel 9</i></a></li>
+  <li><a href="https://channel9.msdn.com/Series/CSharp-Fundamentals-for-Absolute-Beginners?l=Lvld4EQIC_2706218949">C# Fundamentals for Absolute Beginners</a></li>
   <li><a href="https://www.csharp-examples.net/">C# Code Examples</a></li>
   <li><a href="https://www.codeproject.com/KB/cs/">C# Project Examples</a></li>
 </ul>
