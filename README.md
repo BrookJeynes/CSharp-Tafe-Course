@@ -1,7 +1,7 @@
 # C# Tafe Course
 Written by Brook Jeynes and {put tafe teachers name}
 <br>
-# Getting Started
+<h1>Getting Started</h1>
 <h2>The IDE</h2>
 We'll start off by installing <a href="https://visualstudio.microsoft.com/vs/community/">Visual Studio</a> however, feel free to use any IDE you feel comfortable with. It's important to know your way around the IDE of use so make sure to read documentation and at least know the basics of it.
 <br>
@@ -14,8 +14,7 @@ This tutorial follows on from these online recources and gives some practice exa
 </ul>
 <hr>
 <br>
-
-# Running your first project
+<h1>Running your first project</h1>
 In this section you will learn to
 <ul>
   <li>Run a basic program</li>
