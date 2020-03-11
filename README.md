@@ -70,7 +70,7 @@ namespace HelloWorld
 <br>
 
 So what does this program actually do? This application will output the phrase "Hello World!" into the commandline. This project is the starting point of every programmers langauge learning journey. Lets now delve into what each line in this program does for a better understanding of C#. 
-<br>
+<br><br>
 It's important to note that the topics discussed below will be later discussed in more detail, this is just a simple overview as so you get a basic idea of C# and to not overload your brain with information.
 
 <br>
