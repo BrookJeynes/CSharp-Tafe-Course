@@ -8,12 +8,8 @@ We'll start off by installing <a href="https://visualstudio.microsoft.com/vs/com
 <h2>Resources</h2>
 This tutorial follows on from these online recources and gives some practice examples to complete to test your progress, it's not required but recommended you at least check out these resources for a better understand of basics: <h6 style="font-size:11px;"><i>*note: All resources can be found <a>here</a></i></h6>
 
-<h6 style="font-size:11px;"><i>*note: Many examples found in this document are taken and modified from various sites</i></h6>
-<ul>
-  <li><a href="https://channel9.msdn.com/Series/CSharp-Fundamentals-for-Absolute-Beginners?l=Lvld4EQIC_2706218949">C# Fundamentals for Absolute Beginners - <i>Channel 9</i></a></li>
-  <li><a href="https://www.csharp-examples.net/">C# Code Examples</a></li>
-  <li><a href="https://www.codeproject.com/KB/cs/">C# Project Examples</a></li>
-</ul>
+<h6 style="font-size:11px;"><i>*note: Many examples found in this document are taken and modified from various sites. A complete resource list can be found [here](Complete Resource List) </i></h6>
+
 <hr>
 <br>
 
@@ -167,3 +163,20 @@ namespace check1
     }
 }
 ```
+
+<h1>Complete Resource List</h1>
+
+<h2>C# Code/Project Examples</h2>
+<ul>
+  <li><a href="https://channel9.msdn.com/Series/CSharp-Fundamentals-for-Absolute-Beginners?l=Lvld4EQIC_2706218949">C# Fundamentals for Absolute Beginners - <i>Channel 9</i></a></li>
+  <li><a href="https://www.csharp-examples.net/">C# Code Examples</a></li>
+  <li><a href="https://www.codeproject.com/KB/cs/">C# Project Examples</a></li>
+</ul>
+
+<h2>Namespaces</h2>
+<ul>
+  <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/namespaces">What is a  Namespace?</a></li>
+  <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/namespaces/">A Guide to Namespaces</a></li> 
+  <li><a href="https://docs.microsoft.com/en-us/dotnet/api/system?view=netframework-4.8">What the System Namespace does</a></li>
+</ul>
+
