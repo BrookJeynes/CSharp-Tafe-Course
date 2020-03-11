@@ -31,7 +31,7 @@ In this section you will learn to
 <br>
 <h2>Creating your first C# application</h2>
 Start off by creating a file called main.cs and then add the code below into it, save, and run
-<br>
+<br><br>
 
 ```csharp
 using System;
@@ -57,7 +57,7 @@ namespace HelloWorld
 <br>
 <h2>Variables</h2>
 Variables store data which can then be referenced later by using that variable name. Variables can hold many types of data and must be declared when creating that variable.
-<br>
+<br><br>
 
 ```csharp
 int bobAge = 100;
@@ -77,8 +77,8 @@ Here is a short list of the most common variable types
 
 <h1>Data Types and Type Casting</h1>
 <h2>User Input</h2>
-Here is an example of a program that will check whther an entered number is odd or even. Write out the program in a new .cs file and try analyse the project and think about what it does before running it. After this we will breakdown what the project does, how and why it does what it does
-<br>
+Here is an example of a program that will check whether an entered number is odd or even. Write out the program in a new .cs file and try analyse the project and think about what it does before running it. After this we will breakdown what the project does, how and why it does what it does
+<br><br>
 
 ```csharp
 using System;
