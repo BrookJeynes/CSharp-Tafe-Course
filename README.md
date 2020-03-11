@@ -1,5 +1,5 @@
 # C# Tafe Course
-Written by Brook Jeynes and {put tafe teachers name}
+Written by Brook Jeynes and Robert MacKenzie
 <br>
 <h1>Getting Started</h1>
 <h2>The IDE</h2>
