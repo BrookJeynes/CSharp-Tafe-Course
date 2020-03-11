@@ -6,14 +6,27 @@ Written by Brook Jeynes and Robert MacKenzie
 We'll start off by installing <a href="https://visualstudio.microsoft.com/vs/community/">Visual Studio</a> however, feel free to use any IDE you feel comfortable with. It's important to know your way around the IDE of use so make sure to read documentation and at least know the basics of it.
 <br>
 <h2>Resources</h2>
-This tutorial follows on from these online recources and gives some practice examples to complete to test your progress, it's not required but recommended you at least check out these resources for a better understand of basics: <h6 style="font-size:11px;"><i>*note: All resources can be found <a>here</a></i></h6>
+This tutorial follows on from these online recources and gives some practice examples to complete to test your progress, it's not required but recommended you at least check out these resources for a better understand of basics:
 
-<h6 style="font-size:11px;"><i>*note: Many examples found in this document are taken and modified from various sites. A complete resource list can be found [here](Complete Resource List) </i></h6>
+<h6 style="font-size:11px;"><i>*note: Many examples found in this document are taken and modified from various sites. A complete resource list can be found <a href="#resources">here</a></i></h6>
+
+<br>
+
+<h1>Content</h1>
+<ul>
+  <li><a href="#first-project">First Project</a></li>
+  <ul>
+    <li><a href="#creating-first-project">Creating your first project</a></li>
+    <li><a href="#namespaces">Namespaces</a></li>
+    <li><a href="#Classes">Classes</a></li>
+  </ul>
+  <li><a href="#resources">Resources</a></li>
+</ul>
 
 <hr>
 <br>
 
-<h1>Running your first project</h1>
+<h1 id="first-project">Running your first project</h1>
 In this section you will learn to
 <ul>
   <li>Run a basic program</li>
@@ -27,7 +40,7 @@ In this section you will learn to
     </ul>
 </ul>
 <br>
-<h2>Creating your first C# application</h2>
+<h2 id="creating-first-project">Creating your first C# application</h2>
 Start off by creating a file called main.cs and then add the code below into it, save, and run
 <br><br>
 
@@ -61,6 +74,7 @@ using System;
 ```
 
 <br>
+<h3 id="namespaces">Namespaces</h3>
 This first line of code is called a `Namespace`. A Namespace is an element in C# code used to organise your programs and, once created, allow you to reference parts of code from that namespace for later functions in the code. 
 
 So what is the `System` namespace and what does it include? <br>
@@ -89,7 +103,9 @@ This line of code should be easy to interpret considering the previous analysis 
   </ul></i>
 </h6>
 
+<h3 id="classes">Classes</h3>
 <br>
+
 
 ```csharp
 class Program {
@@ -164,7 +180,7 @@ namespace check1
 }
 ```
 
-<h1>Complete Resource List</h1>
+<h1 id="resources">Complete Resource List</h1>
 
 <h2>C# Code/Project Examples</h2>
 <ul>
