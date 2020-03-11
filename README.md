@@ -6,7 +6,9 @@ Written by Brook Jeynes and Robert MacKenzie
 We'll start off by installing <a href="https://visualstudio.microsoft.com/vs/community/">Visual Studio</a> however, feel free to use any IDE you feel comfortable with. It's important to know your way around the IDE of use so make sure to read documentation and at least know the basics of it.
 <br>
 <h2>Resources</h2>
-This tutorial follows on from these online recources and gives some practice examples to complete to test your progress, it's not required but recommended you at least check out these resources for a better understand of basics: <h6 style="font-size:11px;"><i>*note: Many examples found in this document are taken and modified from various sites</i></h6>
+This tutorial follows on from these online recources and gives some practice examples to complete to test your progress, it's not required but recommended you at least check out these resources for a better understand of basics: <h6 style="font-size:11px;"><i>*note: All resources can be found <a>here</a></i></h6>
+
+<h6 style="font-size:11px;"><i>*note: Many examples found in this document are taken and modified from various sites</i></h6>
 <ul>
   <li><a href="https://channel9.msdn.com/Series/CSharp-Fundamentals-for-Absolute-Beginners?l=Lvld4EQIC_2706218949">C# Fundamentals for Absolute Beginners - <i>Channel 9</i></a></li>
   <li><a href="https://www.csharp-examples.net/">C# Code Examples</a></li>
@@ -67,7 +69,7 @@ using System;
 <br>
 This first line of code is called a `Namespace`. A Namespace is an element in C# code used to organise your programs and, once created, allow you to reference parts of code from that namespace for later functions in the code. 
 
-So what is the `System` namespace and what does it include?
+So what is the `System` namespace and what does it include? <br>
 > "The System namespace contains fundamental classes and base classes that define commonly-used value and reference data types, events and event handlers, interfaces, attributes, and processing exceptions." - <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/namespaces/">A Guide to Namespaces</a>
 <br>
 The `using` keyword is equivalent to the `import` keyword. It allows you to import, or "use", that particular namespace (i.e. function)
@@ -97,6 +99,12 @@ class Program {
 ...
 }
 ```
+
+<br>
+Here we create a `class` and label it `Program`. A class is a <br>
+> "...basic concept of Object-Oriented Programming which revolve around... real-life entities" - <a href="https://www.geeksforgeeks.org/c-sharp-class-and-object/">Geeks for Geeks - Class and Object</a>
+<br>
+It's essentially a user-defined blueprint which the interpretor uses to create an `Object`. In that quote you saw the phrase `Object-Oriented Programming`, don't worry about these terms just 
 
 <br>
 <h2>Variables</h2>
