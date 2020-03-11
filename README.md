@@ -2,7 +2,7 @@
 Written by Brook Jeynes and Robert MacKenzie
 <br>
 
-<h1>Content</h1>
+<h1>Table of Contents</h1>
 <ul>
   <li><a href="#first-project">First Project</a></li>
   <ul>
@@ -10,7 +10,7 @@ Written by Brook Jeynes and Robert MacKenzie
     <li><a href="#namespaces">Namespaces</a></li>
     <li><a href="#Classes">Classes</a></li>
   </ul>
-  <li><a href="#resources">Resources</a></li>
+  <li><a href="#resources-content">Resources</a></li>
 </ul>
 
 <hr> <br>
@@ -184,7 +184,7 @@ namespace check1
 }
 ```
 
-<h1 id="resources">Complete Resource List</h1>
+<h1 id="resources-content">Complete Resource List</h1>
 
 <h2>C# Code/Project Examples</h2>
 <ul>
