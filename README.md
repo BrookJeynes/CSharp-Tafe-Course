@@ -54,6 +54,47 @@ namespace HelloWorld
     <li>/* will comment out a section */</li>
   </ul></i>
 </h6>
+
+<br>
+
+So what does this program actually do? This application will output the phrase "Hello World!" into the commandline. This project is the starting point of every programmers langauge learning journey. Lets now delve into what each line in this program does for a better understanding of C#.
+<br><br>
+
+```csharp
+using System;
+```
+
+This first line of code is called a `Namespace`. A Namespace is an element in C# code used to organise your programs and, once created, allow you to reference parts of code from that namespace for later functions in the code. 
+
+So what is the `System` namespace and what does it include?
+> "The System namespace contains fundamental classes and base classes that define commonly-used value and reference data types, events and event handlers, interfaces, attributes, and processing exceptions." - <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/namespaces/">A Guide to Namespaces</a>
+<br><br>
+
+```
+namespace HelloWorld {
+...
+}
+```
+
+This line of code should be easy to interpret considering the previous analysis of the `System` namespace. In this line of code we create our own namespace labeled `HelloWorld`.
+<br><br>
+
+```
+class Program {
+...
+}
+```
+
+
+
+<h6 style="font-size:11px;"><i>*note: for more information on namespaces and System check out these resources
+  <ul>
+    <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/namespaces">What is a  Namespace?</a></li>
+    <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/namespaces/">A Guide to Namespaces</a></li> 
+    <li><a href="https://docs.microsoft.com/en-us/dotnet/api/system?view=netframework-4.8">What the System Namespace does</a></li>
+  </ul></i>
+</h6>
+
 <br>
 <h2>Variables</h2>
 Variables store data which can then be referenced later by using that variable name. Variables can hold many types of data and must be declared when creating that variable.
