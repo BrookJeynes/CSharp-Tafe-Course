@@ -45,8 +45,47 @@ In this section you will learn to
 </ul>
 <br>
 <h2 id="creating-first-project">Creating your first C# application</h2>
-Start off by creating a file called main.cs and then add the code below into it, save, and run
+It is advised that you create a new folder with each project and lesson as to make sure everything is easy to find and organised. <br>
+
+```cmd
+~$ mkdir "csharp tafe course"
+~$ cd "csharp tafe course"
+```
+
+```cmd
+~$ mkdir "examples"
+~$ mkdir "projects"
+~$ cd "examples"
+```
+
+<br>
+
+For this example project we will create a new .cs file with the name "Hello World Example". <br>
+
+```cmd
+~$ mkdir "1 hello world"
+~$ cd "1 hello world"
+```
+
+<br>
+
+Once your folders are created it's time to create the .cs file. <br>
+
+<i>Windows:</i>
+
+```cmd
+~$ echo $null >> main.cs
+```
+
+<i>Linux/Mac:</i>
+
+```bash
+~$ touch main.cs
+```
+
 <br><br>
+
+Once you have created the `main.cs` file open it up in visual studio, or your IDE of choice, and make sure that you can connect to that project through the IDE editor. Now you have set everything up, write out the example code below and run it. Try think about what it does before running it. <br><br>
 
 ```csharp
 using System;
@@ -225,49 +264,13 @@ We will talk about data types in the next section of this document but as of cur
 <br>
 
 <h1 id="project1">main.cs: A Project About Structuring Your Programs</h1>
-Now that you've learnt the structure of a C# program it's your time to have a go at creating one. Throughout this document there will be examples and mini projects for you to test your knowledge and to allow a hands on learning experience. It is advised that you create a new folder with each project so that everything is easy to find and organised. <br>
+Now that you've learnt the structure of a C# program it's your time to have a go at creating one. Throughout this document there will be examples and mini projects for you to test your knowledge and to allow a hands on learning experience. <br>
 
-```cmd
-~$ mkdir "csharp tafe course"
-~$ cd "csharp tafe course"
-```
+The goal of this project is to, using the .cs file we just created, code a program which outputs the text `"C# is fun"` to the command line. Goodluck.
 
-<br>
-
-For this example project we will create a new .cs file with the name "Project 1: Structure". <br>
-
-```cmd
-~$ mkdir "project1 structure"
-~$ cd "project1 structure"
-```
+<h6 style="font-size:11px;"><i>*note: Underneath is an answer to this project, it is highly advised you take an attempt at the project before viewing the answer. Also note that there is never 1 single way to create a projects answer, everyone codes different and therefore there are many solutions to a single question. For this reason it is important to realise your answer may not match the one provided below, it is just a basic guide of our interpretation of the answer as long as your program does what the question asks, you have succeeded.</h6>
 
 <br>
-
-Once your folders are created it's time to create the .cs file. <br>
-
-<i>Windows:</i>
-
-```cmd
-~$ echo $null >> main.cs
-```
-
-<i>Linux/Mac:</i>
-
-```bash
-~$ touch main.cs
-```
-
-<br>
-
-And now that the file has been created open up visual studio, or your IDE of choice, and make sure that you can connect to that project through the IDE editor. Once you have successfully navigated to your file, it's time to start the first practice project. <br>
-
-For this practice project your goal is to, using the .cs file we just created, code a program which outputs the text `"C# is fun"` to the command line.
-
-<br><br>
-
-Here is an interpreted answer for the project above, there are many ways this project could be done this is just one of the many answers possible. It is advised you have a go at the project before you view the answer as copying the answer will help you in no way.
-
-<br><br>
 <h3>Project 1 Answer</h3> <br>
 
 ```csharp
