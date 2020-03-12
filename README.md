@@ -83,7 +83,7 @@ Once your folders are created it's time to create the .cs file. <br>
 ~$ touch main.cs
 ```
 
-<br><br>
+<br>
 
 Once you have created the `main.cs` file open it up in visual studio, or your IDE of choice, and make sure that you can connect to that project through the IDE editor. Now you have set everything up, write out the example code below and run it. Try think about what it does before running it. <br><br>
 
