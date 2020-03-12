@@ -60,7 +60,7 @@ It is advised that you create a new folder with each project and lesson as to ma
 
 <br>
 
-For this example project we will create a new .cs file with the name "Hello World Example". <br>
+For this example project we will create a new folder with the name "Hello World Example". <br>
 
 ```cmd
 ~$ mkdir "1 hello world"
