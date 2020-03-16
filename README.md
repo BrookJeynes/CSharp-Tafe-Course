@@ -69,23 +69,7 @@ For this example project we will create a new folder with the name "Hello World 
 
 <br>
 
-Once your folders are created it's time to create the .cs file. <br>
-
-<i>Windows:</i>
-
-```cmd
-~$ echo $null >> main.cs
-```
-
-<i>Linux/Mac:</i>
-
-```bash
-~$ touch main.cs
-```
-
-<br>
-
-Once you have created the `main.cs` file open it up in visual studio, or your IDE of choice, and make sure that you can connect to that project through the IDE editor. Now you have set everything up, write out the example code below. Try think about what it does before running it. <br><br>
+Now it's time to create a `C# console app` and call it `main.cs`. Once created open it up in visual studio, or your IDE of choice, and make sure that you can connect to that project through the IDE editor. Now you have set everything up, write out the example code below. Try think about what it does before running it. <br><br>
 
 ```csharp
 using System;
