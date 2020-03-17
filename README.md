@@ -11,7 +11,7 @@ Written by Brook Jeynes and Robert MacKenzie
     <li><a href="#classes">Classes</a></li>
     <li><a href="#methods">Methods</a></li>
     <li><a href="#printing">Printing to the command line</a></li>
-    <li><a href="#prject1">Project 1</a></li>
+    <li><a href="#project1">Project 1</a></li>
   </ul>
   <li><a href="#second-project">Math and C#</a></li>
   <li><a href="#resources-content">Resources</a></li>
@@ -288,13 +288,17 @@ In this section you will learn to
 </ul>
 <br>
 <h2>Variables</h2>
-Variables store data which can then be referenced later by using that variable name. Variables can hold many types of data but that data type should always be declared when creating it.
+Variables are declarations which allow you to store a certain value to a certain name. Variables can hold many types of data but that data type should always be declared when creating it.
 <br><br>
 
 ```csharp
 int bobAge = 100;
 string bobAddress = "200 Old Man Street"
 ```
+<br>
+
+In this small piece of code we declare that the variable `bobAge` is an integer and that it contains the value `100`. Now whenever we want to reference the value 100 instead we can reference "bobAge". The same is done with `bobAddress`, we decalre it as a string and assign it the value `"200 Old Man Street"`. So why is this useful? Why not just reference "100" or "200 Old Man Street". Well what if we want a value to change but have it in the same section of a function? We can't just change the code everytime we want a value to change. By assigning it a name we can reference that variable in the code and assign it a new value whenever.
+
 <br>
 Here is a short list of the most common variable types
 <ul>
@@ -309,7 +313,7 @@ Here is a short list of the most common variable types
 
 <h1>Data Types and Type Casting</h1>
 <h2>User Input</h2>
-Here is an example of a program that will check whether an entered number is odd or even. Write out the program in a new .cs file and try analyse the project and think about what it does before running it. After this we will breakdown what the project does, how and why it does what it does
+Here is an example of a program that uses users input, try read through the code and think about what it does. Once you think you know what happens, create a new example and add the code into it, run it, and see if you were correct.
 <br><br>
 
 ```csharp
@@ -341,6 +345,10 @@ namespace check1
     }
 }
 ```
+
+<br>
+
+Now that you've run the code you would have seen that the program allows you to determine whether a value is odd or even. Let's do a quick run down of how this program works.
 
 <h1 id="resources-content">Complete Resource List</h1>
 
