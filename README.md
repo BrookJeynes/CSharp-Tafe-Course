@@ -352,7 +352,7 @@ namespace check1
 
 Now that you've run the code you would have seen that the program allows you to determine whether a value is odd or even. Let's do a quick run down of how this program works. 
 
-<br>
+<h3>Imports</h3>
 
 ```csharp
 using System;
@@ -366,6 +366,8 @@ using System.Text;
 Here we import a variety of things which allow use certain functions. All these functions are taken from the `System` import, thats why we use `System.nameofpackage`.
 
 <br>
+
+<h3>Variables and User Input</h3>
 
 ```csharp
 ... {
