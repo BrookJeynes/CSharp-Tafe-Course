@@ -284,6 +284,7 @@ In this section you will learn to
   <li>Create Variables</li>
   <li>Take User Input</li>
   <li>Do Math in C#</li>
+  <li>If else</li>
   <li>Data Type Casting</li>
 </ul>
 <br>
@@ -295,6 +296,7 @@ Variables are declarations which allow you to store a certain value to a certain
 int bobAge = 100;
 string bobAddress = "200 Old Man Street"
 ```
+
 <br>
 
 In this small piece of code we declare that the variable `bobAge` is an integer and that it contains the value `100`. Now whenever we want to reference the value 100 instead we can reference "bobAge". The same is done with `bobAddress`, we decalre it as a string and assign it the value `"200 Old Man Street"`. So why is this useful? Why not just reference "100" or "200 Old Man Street". Well what if we want a value to change but have it in the same section of a function? We can't just change the code everytime we want a value to change. By assigning it a name we can reference that variable in the code and assign it a new value whenever.
@@ -348,7 +350,38 @@ namespace check1
 
 <br>
 
-Now that you've run the code you would have seen that the program allows you to determine whether a value is odd or even. Let's do a quick run down of how this program works.
+Now that you've run the code you would have seen that the program allows you to determine whether a value is odd or even. Let's do a quick run down of how this program works. 
+
+<br>
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+```
+
+<br>
+
+Here we import a variety of things which allow use certain functions. All these functions are taken from the `System` import, thats why we use `System.nameofpackage`.
+
+<br>
+
+```csharp
+... {
+  ... {
+    ... {
+      int i;
+      Console.Write("Enter a Number : ");
+      i = int.Parse(Console.ReadLine());
+    }
+  } 
+}
+```
+
+<br>
+
+Here we see that we start off by declaring the variable `i` as an `integer`, however we dont assign it a value just yet. In the next line we use a new function called `Console.Write();`, what does this do? It allows the user to enter something, and then relating from the line underneath `i = int.Parse(Console.ReadLine());` parses that value into the variable `i`.
 
 <h1 id="resources-content">Complete Resource List</h1>
 
