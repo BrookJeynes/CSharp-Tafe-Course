@@ -304,11 +304,13 @@ In this small piece of code we declare that the variable `bobAge` is an integer 
 <br>
 Here is a short list of the most common variable types
 <ul>
-  <li>Int: Stores integers (whole numbers), without decimals, such as 123 or -123</li>
-  <li>Double: Stores floating point numbers, with decimals, such as 19.99 or -19.99</li>
-  <li>Char: Stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes</li>
-  <li>String: Stores text, such as "Hello World". String values are surrounded by double quotes</li>
-  <li>Bool: Stores values with two states: true or false</li>
+  <li>int: 4 Bytes - Stores integers, without decimals, Stores whole numbers from -2,147,483,648 to 2,147,483,647</li>
+  <li>long: 8 Bytes - Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807</li>
+  <li>float: 4 Bytes - Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits</li>
+  <li>Double: 8 Bytes -  Stores fractional numbers. Sufficient for storing 15 decimal digits</li>
+  <li>Char: 2 Bytes -  Stores a single character/letter,such as 'a' surrounded by single quotes</li>
+  <li>String: 2 Bytes per character - Stores text, such as "Hello World". String values are surrounded by double quotes</li>
+  <li>Bool: 1 bit -Stores values with two states: true or false</li>
 </ul>
 <hr>
 <br>
