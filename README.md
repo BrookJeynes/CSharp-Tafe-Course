@@ -1008,7 +1008,9 @@ Compare your solution with other students answers to see if there are better way
 </ul>
 <h3>TASK - Project 5</H3>
 <hr> <br>
-Create a small program 
+Create a small program that:
+Asks a user to enter a sting of data - any length. store the data in a text file on your local machine - 
+C:\ProgramData\... Then read the file back and invert the text stream so it prints backwards.
 Write pseudo code to design this program.
 
 
